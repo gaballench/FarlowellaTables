@@ -1,4 +1,4 @@
-# FarlowellaTables
+# Farlowella Tables Repository
 
 ## Description
 
