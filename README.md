@@ -4,6 +4,10 @@
 
 Repository containing the R code used for generating summary tables in taxonomic papers of Farlowella
 
+## Usage and credits
+
+Please cite Ballen et al. (in prep.) when using the model, script and/or datasets herein available. In the case of datasets, please cite the paper where they were first published. Such information will be unambiguously found both in this repo and inside the dataset file. You are allowed to used and modify all the materials herein available provided that the proper credit is given and that they will not be used for profit. For further details click on the creative commons license below.
+
 ## Contents of this repository
 
 There are two files provided, a `Farlowella data.csv` table used to import data to R. It can be opened and edited in any spreadsheet software (libreoffice encouraged as it is free software). After saving the data again in csv format, the can be imported into R.
