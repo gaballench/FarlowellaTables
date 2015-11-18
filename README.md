@@ -12,4 +12,6 @@ The script `measurements.R` imports the csv dataset into R. If run completely it
 
 Please note that the model table also include fields for meristic data that are not subject to statistical summary as they show very little variation and are seldom included in summary tables. The script handles such columns ignoring them so the user does not need to remove them by hand from the raw data file.
 
+This repository, its scripts and associated data were created before carrying out the manuscript for Ballen et al. (Farlowella mxxxxxxxx, in prep), where two collumns from the model table (i.e., species and sex) were missing. For sake of reproducibility a separate script and dataset will be provided herein as soon as the article is accepted for publication.
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
