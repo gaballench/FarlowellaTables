@@ -35,6 +35,7 @@ Stats <- cbind(rownames(Stats), Stats)
 Stats <- cbind(Stats[, 1], unname(t(corrected[2 ,])), Stats[, 2:4])
 colnames(Stats) <- c("Measurement", "Holotype", "Mean", "SD", "Range")
 rownames(Stats) <- NULL
+totalTable <- Stats
 
 ### Write table to xls file
 write.xlsx(Stats, "Table 1 gianetii.xls", col.names = TRUE, row.names = FALSE,
@@ -75,6 +76,9 @@ Stats <- cbind(rownames(Stats), Stats)
 colnames(Stats) <- c("Measurement", "Mean", "SD", "Range")
 rownames(Stats) <- NULL
 
+### Append both 'Stats' tables so that the first columns include information for Farlowella gianetii and the latter for Farlowella jauruensis
+totalTable <- cbind(totalTable, Stats[, -1])
+
 ### Write table to xls file
-write.xlsx(Stats, "Table 1 jauruensis.xls", col.names = TRUE, row.names = FALSE,
+write.xlsx(totalTable, "Table 1.xls", col.names = TRUE, row.names = FALSE,
            showNA = TRUE)
