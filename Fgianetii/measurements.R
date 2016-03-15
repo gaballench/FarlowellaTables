@@ -3,7 +3,7 @@ library(xlsx)
 ### Table for Farlowella gianetii
 
 ### Measurements as ratios of SL or SL respectively
-dataset <- read.csv(file = "Farlowella data.csv", header = TRUE, dec = ".", stringsAsFactors = FALSE)
+dataset <- read.csv(file = "gianetiiJauruensis.csv", header = TRUE, dec = ".", stringsAsFactors = FALSE)
 dataset <- dataset[dataset$Species == "Farlowella gianetii", ]
 corrected <- dataset[, c(5:18)]/dataset[, "SL"]
 corrected <- cbind(corrected, dataset[, c(19:22)]/dataset[, "HL"])
@@ -45,7 +45,7 @@ write.xlsx(Stats, "Table 1 gianetii.xls", col.names = TRUE, row.names = FALSE,
 ### Table for Farlowella jauruensis
 
 ### Measurements as ratios of SL or SL respectively
-dataset <- read.csv(file = "Farlowella data.csv", header = TRUE, dec = ".", stringsAsFactors = FALSE)
+dataset <- read.csv(file = "gianetiiJauruensis.csv", header = TRUE, dec = ".", stringsAsFactors = FALSE)
 dataset <- dataset[dataset$Species == "Farlowella jauruensis", ]
 corrected <- dataset[, c(5:18)]/dataset[, "SL"]
 corrected <- cbind(corrected, dataset[, c(19:22)]/dataset[, "HL"])
