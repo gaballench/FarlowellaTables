@@ -65,7 +65,8 @@ Stats <- t(Stats)
 Stats <- data.frame(Stats, paste(Stats[, 3], Stats[, 4], sep = " - "))
 Stats <- Stats[, -c(3, 4)]
 Stats <- cbind(rownames(Stats), Stats)
-colnames(Stats) <- c("Measurement", "Mean", "SD", "Range")
+Stats <- cbind(Stats[, 1], round(unname(t(corrected[3, ])), 1), Stats[, -1])
+colnames(Stats) <- c("Measurement", "Holotype", "Mean", "SD", "Range")
 rownames(Stats) <- NULL
 
 ### Write table to xls file
