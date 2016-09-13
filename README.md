@@ -17,7 +17,7 @@ There are two files provided:
 
 Please note that the model table also include fields for meristic data that are not subject to statistical summary as they show very little variation and are seldom included in summary tables. The script handles such columns ignoring them so the user does not need to remove them by hand from the raw data file.
 
-This repository, its scripts and associated data were created before carrying out the manuscript for Ballen et al. (Farlowella mxxxxxxxx, in prep), where two columns from the model table (i.e., species and sex) were missing. For sake of reproducibility a separate script and dataset will be provided herein as soon as the article is accepted for publication.
+This repository, its scripts and associated data were created before carrying out the manuscript for Ballen et al. (Farlowella mitoupibo, in press), where two columns from the model table (i.e., species and sex) were missing. For sake of reproducibility a separate script and dataset will be provided herein as soon as the article is accepted for publication.
 
 ## Datasets available
 
@@ -29,7 +29,7 @@ Cite as:
 
 Ballen, G.A., Pastana, M.N.L. & Peixoto, L.A.W. 2016 (in press). A new species of Farlowella (Siluriformes: Loricariidae) of the F. nattereri species-group from the rio Xingu basin, Mato Grosso, Brazil, with comments on Farlowella jauruensis Eigenmann & Vance, a poorly-known species from the upper rio Paraguai basin. Neotropical Ichthyology 14(3):pp.
 
-# Farlowella Colombia
+# Farlowella mitoupibo
 
 Please navigate to the Fmitoupibo folder to find the dataset and script used in this study.
 
